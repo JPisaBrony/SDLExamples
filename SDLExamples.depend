@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1494435003 source:c:\users\joshp\desktop\sdlexamples\compiler check.c
+	<SDL2/SDL.h>
+
+1494436252 source:c:\users\joshp\desktop\sdlexamples\load image.c
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1494439169 source:c:\users\joshp\desktop\sdlexamples\load image via texture.c
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1494440581 source:c:\users\joshp\desktop\sdlexamples\render rectangles.c
+	<SDL2/SDL.h>
+
+1494442199 source:c:\users\joshp\desktop\sdlexamples\render rectangles simple animation.c
+	<SDL2/SDL.h>
+	<time.h>
+	<stdlib.h>
+
+1494435271 source:c:\users\joshp\github\sdlexamples\compiler check.c
+	<SDL2/SDL.h>
+
+1494446386 source:c:\users\joshp\github\sdlexamples\move rendered rectangles.c
+	<SDL2/SDL.h>
+
