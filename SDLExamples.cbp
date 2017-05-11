@@ -30,9 +30,11 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add directory="./include" />
 		</Compiler>
 		<Linker>
 			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image" />
+			<Add directory="./lib" />
 		</Linker>
 		<Unit filename="000 - compiler check.c">
 			<Option compilerVar="CC" />
