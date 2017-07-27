@@ -4,7 +4,6 @@
 #define SCREEN_WIDTH 1000
 #define SCREEN_HEIGHT 800
 
-SDL_Event event;
 SDL_Window *window = NULL;
 SDL_Surface *screen = NULL;
 SDL_Surface *img = NULL;

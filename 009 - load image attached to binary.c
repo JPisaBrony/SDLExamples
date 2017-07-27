@@ -74,7 +74,7 @@ int main(int argc, char* args[]) {
 
     // load image
     // create RWops from the image bytes
-    SDL_RWops *wops = SDL_RWFromMem(twi_png_bytes, twi_img_size);
+    wops = SDL_RWFromMem(twi_png_bytes, twi_img_size);
     // load image from RWops
     img = IMG_Load_RW(wops, 1);
     if(img == NULL)
