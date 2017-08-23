@@ -29,8 +29,6 @@ void exit_msg(char *msg) {
 }
 
 void cleanup() {
-    // free RWops
-    SDL_RWclose(wops);
     // free image bytes
     free(twi_png_bytes);
     // free image
@@ -55,7 +53,7 @@ int main(int argc, char* args[]) {
     twi_png_bytes = malloc(sizeof(char) * twi_img_size);
     // iterate over the data
     for(twi_png = _binary_twi_png_start; twi_png != _binary_twi_png_end; twi_png++) {
-        // insert the data into the allocate memory
+        // insert the data into the allocated memory
         twi_png_bytes[i++] = *twi_png;
     }
 
